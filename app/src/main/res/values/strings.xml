@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SimpleCalculator</string>
+    <string name="CalcPrint" />
+    <string name="Calc1">1</string>
+    <string name="Calc2">2</string>
+    <string name="Calc3">3</string>
+    <string name="CalcPlus">+</string>
+    <string name="Calc4">4</string>
+    <string name="Calc5">5</string>
+    <string name="Calc6">6</string>
+    <string name="CalcMinus">-</string>
+    <string name="Calc7">7</string>
+    <string name="Calc9">9</string>
+    <string name="Calc8">8</string>
+    <string name="CalcMultiplication">*</string>
+    <string name="CalcClear">C</string>
+    <string name="button">Button</string>
+    <string name="Calc0">0</string>
+    <string name="CalcDot">.</string>
+    <string name="CalcDivision">/</string>
+    <string name="CalcEqual">=</string>
+</resources>
