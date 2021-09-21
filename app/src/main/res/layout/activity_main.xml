@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,21 +8,30 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#75000000"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/CalcPrint"
             android:layout_width="match_parent"
-            android:layout_height="379dp"
-            android:background="#3100BCD4"
+            android:layout_height="329dp"
+            android:background="#63000000"
+            android:gravity="center|end"
+            android:padding="15dp"
             android:text="@string/CalcPrint"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textStyle="bold" />
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            android:textStyle="normal"
+            tools:text="0" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="66dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#00000000"
             android:orientation="horizontal">
 
             <Button
@@ -31,11 +39,14 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/Calc1"
-                android:textColor="#000000"
-                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal"
                 tools:ignore="DuplicateSpeakableTextCheck" />
 
             <Button
@@ -43,39 +54,53 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/Calc2"
-                android:textColor="#000000"
-                android:textStyle="bold" />
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/Calc3"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/Calc3"
-                android:textColor="#000000"
-                android:textStyle="bold" />
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
             <Button
                 android:id="@+id/CalcPlus"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/CalcPlus"
-                android:textColor="#000000"
-                android:textStyle="bold" />
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#00000000"
             android:orientation="horizontal">
 
             <Button
@@ -83,11 +108,14 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/Calc4"
-                android:textColor="#000000"
-                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal"
                 tools:ignore="DuplicateSpeakableTextCheck" />
 
             <Button
@@ -95,11 +123,14 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/Calc5"
-                android:textColor="#000000"
-                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal"
                 tools:ignore="DuplicateSpeakableTextCheck" />
 
             <Button
@@ -107,11 +138,14 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/Calc6"
-                android:textColor="#000000"
-                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal"
                 tools:ignore="DuplicateSpeakableTextCheck" />
 
             <Button
@@ -119,16 +153,24 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/CalcMinus"
-                android:textColor="#000000"
-                android:textStyle="bold" />
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="61dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#00000000"
             android:orientation="horizontal">
 
             <Button
@@ -136,11 +178,14 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/Calc7"
-                android:textColor="#000000"
-                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal"
                 tools:ignore="DuplicateSpeakableTextCheck" />
 
             <Button
@@ -148,11 +193,14 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/Calc8"
-                android:textColor="#000000"
-                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal"
                 tools:ignore="DuplicateSpeakableTextCheck" />
 
             <Button
@@ -160,11 +208,14 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/Calc9"
-                android:textColor="#000000"
-                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal"
                 tools:ignore="DuplicateSpeakableTextCheck" />
 
             <Button
@@ -172,16 +223,24 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/CalcMultiplication"
-                android:textColor="#000000"
-                android:textStyle="bold" />
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#00000000"
             android:orientation="horizontal">
 
             <Button
@@ -189,11 +248,14 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/CalcClear"
-                android:textColor="#000000"
-                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal"
                 tools:ignore="DuplicateSpeakableTextCheck" />
 
             <Button
@@ -201,11 +263,14 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/Calc0"
-                android:textColor="#000000"
-                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal"
                 tools:ignore="DuplicateSpeakableTextCheck" />
 
             <Button
@@ -213,11 +278,14 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/CalcDot"
-                android:textColor="#000000"
-                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal"
                 tools:ignore="DuplicateSpeakableTextCheck" />
 
             <Button
@@ -225,29 +293,40 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/CalcDivision"
-                android:textColor="#000000"
-                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal"
                 tools:ignore="DuplicateSpeakableTextCheck" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#00000000"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/calcEqual"
+                android:id="@+id/CalcEqual"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="#3100BCD4"
+                android:background="#4F000000"
+                android:fontFamily="monospace"
                 android:text="@string/CalcEqual"
-                android:textColor="#000000"
-                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="normal"
                 tools:ignore="DuplicateSpeakableTextCheck" />
         </LinearLayout>
     </LinearLayout>

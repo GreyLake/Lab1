@@ -1,0 +1,115 @@
+    TextView CalcPrint = (TextView)findViewById(R.id.CalcPrint);
+    double valueD;
+    double op1;
+    double op2;
+    String valueS;       
+ valueD = 0.00;
+
+        Button Calc0 = findViewById(R.id.Calc0);
+        Button Calc1 = findViewById(R.id.Calc1);
+        Button Calc2 = findViewById(R.id.Calc2);
+        Button Calc3 = findViewById(R.id.Calc3);
+        Button Calc4 = findViewById(R.id.Calc4);
+        Button Calc5 = findViewById(R.id.Calc5);
+        Button Calc6 = findViewById(R.id.Calc6);
+        Button Calc7 = findViewById(R.id.Calc7);
+        Button Calc8 = findViewById(R.id.Calc8);
+        Button Calc9 = findViewById(R.id.Calc9);
+        Button CalcPlus = findViewById(R.id.CalcPlus);
+        Button CalcMinus = findViewById(R.id.CalcMinus);
+        Button CalcMultiplication = findViewById(R.id.CalcMultiplication);
+        Button CalcClear = findViewById(R.id.CalcClear);
+        Button CalcDivision = findViewById(R.id.CalcDivision);
+        Button CalcDot = findViewById(R.id.CalcDot);
+        Button CalcEqual = findViewById(R.id.CalcEqual);
+
+        Calc0.setOnClickListener(v ->
+        {
+            valueS = new String("0.00");
+            PrintText(valueS);
+        });
+
+        Calc1.setOnClickListener(v ->
+        {
+            valueS = new String("1.00");
+            PrintText(valueS);
+        });
+
+        Calc2.setOnClickListener(v ->
+        {
+
+        });
+
+        Calc3.setOnClickListener(v ->
+        {
+
+        });
+
+        Calc4.setOnClickListener(v ->
+        {
+
+        });
+
+        Calc5.setOnClickListener(v ->
+        {
+
+        });
+
+        Calc6.setOnClickListener(v ->
+        {
+
+        });
+
+        Calc7.setOnClickListener(v ->
+        {
+
+        });
+
+        Calc8.setOnClickListener(v ->
+        {
+
+        });
+
+        Calc9.setOnClickListener(v ->
+        {
+
+        });
+
+        CalcPlus.setOnClickListener(v ->
+        {
+
+        });
+
+        CalcMinus.setOnClickListener(v ->
+        {
+
+        });
+
+        CalcMultiplication.setOnClickListener(v ->
+        {
+
+        });
+
+        CalcDivision.setOnClickListener(v ->
+        {
+
+        });
+
+        CalcDot.setOnClickListener(v ->
+        {
+
+        });
+
+        CalcClear.setOnClickListener(v ->
+        {
+
+        });
+
+        CalcEqual.setOnClickListener(v ->
+        {
+
+        });
+    }
+
+    void PrintText(String text){
+       CalcPrint.setText(text);
